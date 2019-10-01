@@ -21,19 +21,19 @@
     display: block;
     padding: 0.5em 1em;
     border-radius: 0.3em;
-    background: #EEE;
+    background: var(--color-body-text-white);
 }
 
 .site-nav a:hover {
     background: var(--color-link-default);
-    color: var(--color-body-bgrd);
+    color: var(--color-body-text-white);
 }
 
 .site-nav a i.fas:before {
-    color: #000;
+    color: var(--color-body-text);
     margin-right: 0.5em;
 }
 
 .site-nav a:hover i.fas:before {
-    color:#fff;
+    color: var(--color-body-text-white);
 }

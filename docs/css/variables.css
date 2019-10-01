@@ -6,11 +6,11 @@
     
     --layout-main-width: 70em;
 
-    --color-body-text: #000;
-    --color-body-bgrd: #FFF;
-    --color-link-default: #A00;
-
-    --color-border-default: #999;
+    --color-body-text: #333333;
+    --color-body-bgrd: rgb(226, 223, 223);
+    --color-link-default: #358774;
+    --color-body-text-white: #fff;
+    --color-border-default: #565656;
 
     --spacing-layout-elements: 2em;
 }
