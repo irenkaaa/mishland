@@ -4,8 +4,9 @@ title: Contacts
 icon: fa-address-card
 noshowtitle: true
 permalink: /contacts/
+message: send us message
 ---
-
+<div class="content">
 <div class="contacts">
     <header>
         <h2 class="contact-title">{{page.title}}</h2>
@@ -41,10 +42,11 @@ permalink: /contacts/
             <form action="#">
                 <p><input type="text" name="name" id="name" placeholder="Name"></p>
                 <p><input type="text" name="email" id="email" placeholder="Email"></p>
-                <p><textarea name="message" id="message" cols="20" rows="5" placeholder="Type your message in here..."></textarea></p>
-                <p><a href="#">Submit</a></p>
+                <p><textarea name="message" id="message" cols="21" rows="5" placeholder="Type your message in here..."></textarea></p>
+                <p><a href="{{ site.baseurl }}/">Submit</a></p>
             </form>
         </div>
         
     </main>
+</div>
 </div>

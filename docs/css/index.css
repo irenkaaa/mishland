@@ -1,0 +1,151 @@
+
+
+.welcome {
+    position: relative;
+}
+
+.welcome img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/*@media (max-width: 800px) {}*/
+
+
+.welcome p {
+    color: var(--color-button-bgrd);
+    text-shadow: 4px 8px 5px rgba(0,0,0,0.61);
+    font-size: 2.2em;
+    font-style: italic;
+    position: absolute;
+    top: 20%; left: 50%;
+    transform: translate(-50%,-50%);
+    
+}
+
+.welcome .button {
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.61);
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    padding: 0.3em 0.8em;
+    font-style: italic;
+    position: absolute;
+    top: 25%; left: 57%;
+}
+
+
+
+
+.check-our-stuff {
+    /*background: rgba(73, 42, 75, 0.5);*/
+}
+
+.check-our-stuff ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em;
+
+}
+.check-our-stuff li {
+    list-style: none outside;
+    flex-basis: 24%;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.check-our-stuff li a {
+    text-transform: uppercase;
+    color: var(--color-body-text-white);
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.3em 0.5em;
+    border: 3px solid var(--color-body-text-white);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    transition: color 0.5s ease-in-out, border 0.5s ease-in-out;
+    
+}
+
+.check-our-stuff li:hover a {
+    color: black;
+    border-color: black;
+}
+
+.check-our-stuff li > a,
+.check-our-stuff li > a:hover,
+.check-our-stuff li > a:focus {
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.check-our-stuff li > img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: black;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.check-our-stuff li:hover > img {
+    opacity: 0.2;
+}
+
+
+.extras {
+    display: flex;
+    justify-content: space-around;
+
+}
+.extras section {
+    flex: 1 1 30%;
+    border: 3px solid var(--color-button-bgrd);
+    text-align: center;
+    margin-right: 1em;
+}
+.extras section:nth-child(3) {
+    margin-right: 0;
+}
+.extras section > h4 {
+    text-decoration-line: underline;
+    text-decoration-color: var(--color-button-bgrd);
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+.extras section i {
+    font-size: 2.5em;
+    padding: 0.5em 0;
+    color: var(--color-button-bgrd);
+}
+.extras section > p {
+    padding-bottom: 0.5em;
+}
+
+
+
+.newsletter {
+    display: flex;
+}
+.newsletter i {
+    font-size: 3em;
+}
+.newsletter h3 {
+
+}
+.newsletter input{
+    padding: 
+}
+.newsletter button{
+
+}

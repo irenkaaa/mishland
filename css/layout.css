@@ -4,6 +4,17 @@
     padding: 2em;
 }
 
+.nav-toggle {
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+}
+    
+.nav-toggle-button {
+    display: none;
+    margin-left: auto;
+}
+
 @media (min-width: 1024px) {
     .site-header {
         display: flex;

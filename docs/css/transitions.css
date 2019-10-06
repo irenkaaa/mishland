@@ -69,4 +69,12 @@ body.loaded .site-nav li {
     color: var(--color-link-default);
 }
 
+.contacts .contact-social li {
+    transition: font-size 0.5s ease-in-out;
+}
+
+.contacts .contact-social li:hover, 
+.contacts .contact-social li:focus {
+    font-size: 3em;
+}
 

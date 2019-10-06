@@ -14,8 +14,8 @@
     
     home
 ">
-        
-    <div class="site">
+<div class="site">
+        <input type="checkbox" id="nav-toggle"  class="nav-toggle">
         <header class="site-header">
             
             <h1 class="site-title">
@@ -80,6 +80,12 @@
         
     </ul>
 </nav>
+
+            <label for="nav-toggle" class="nav-toggle-button">
+                <span class="open"><i class="fas fa-bars"></i></span>
+                <span class="close"><i class="fas fa-times"></i></span>
+            </label>
+            
         </header>
 
         <main class="site-main">
@@ -88,17 +94,64 @@
                 
 
             
-            <section>
 
-  <header>
-    <h2>About the project</h2>
-  </header>
-      
-  <div class="content">
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores cum, nisi magnam aut incidunt voluptatibus minus iste natus quae reiciendis ut saepe reprehenderit blanditiis similique adipisci suscipit? Cumque, quae?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores cum, nisi magnam aut incidunt voluptatibus minus iste natus quae reiciendis ut saepe reprehenderit blanditiis similique adipisci suscipit? Cumque, quae?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores cum, nisi magnam aut incidunt voluptatibus minus iste natus quae reiciendis ut saepe reprehenderit blanditiis similique adipisci suscipit? Cumque, quae?</p>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis maiores cum, nisi magnam aut incidunt voluptatibus minus iste natus quae reiciendis ut saepe reprehenderit blanditiis similique adipisci suscipit? Cumque, quae?</p>
+            <section>
+  <div class="welcome">
+    <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
+    <p>Find the comfort you dream for!</p>
+    <a href="#" class="button">Get Started!</a>
+  </div>
+
+  <div class="check-our-stuff">
+    <ul>
+      <li>
+        <a href="#">sofas</a>
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="">
+
+      </li>
+
+      <li>
+        <a href="#">living room</a>
+        <img src="https://images.unsplash.com/photo-1501645429123-a300be5fe1c2?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="">
+      </li>
+
+      <li>
+        <a href="#">bedrooms</a>
+        <img src="https://images.unsplash.com/photo-1541123356219-284ebe98ae3b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=300&q=80" alt="">
+
+      </li>
+
+      <li>
+        <a href="#">kitchens</a>
+        <img src="https://images.unsplash.com/photo-1565183928294-7063f23ce0f8?ixlib=rb-1.2.1&auto=format&fit=crop&w=300&q=80" alt="" srcset="">
+      </li>
+    </ul>
+  </div>
+
+  <div class="extras">
+    <section>
+      <i class="fas fa-dolly-flatbed"></i>
+      <h4>Free Delivery for the whole country</h4>
+      <p>For orders over 200 BGN</p>
+    </section>
+    <section>
+      <i class="far fa-money-bill-alt"></i>
+      <h4>Payment on delivery</h4>
+      <p>Without extra tax for the cash</p>
+    </section>
+    <section>
+      <i class="fas fa-store"></i>
+      <h4>5 shops in Bulgaria</h4>
+      <p>Visit us!</p>
+    </section>
+  </div>
+
+
+  <div class="newsletter">
+    <i class="far fa-envelope"></i>
+    <h3>Subscribe for our newsletter and get first our offers</h3>
+    <input type="text" name="email" id="email" placeholder="Write your mail">
+    <button type="submit"></button>
   </div>
 </section>
 
@@ -108,67 +161,42 @@
         
 
         <footer class="site-footer">
-            <p>All rghts reserved &copy; irenkaaa </p>
+
+            <div class="footer">
+    <section class="first">
+        <h5>About the company</h5>
+        <p>We are creative team, trying to achieve perfection of every client's wish.</p>
+    </section>
+
+    <section class="second">
+        <h5>Information</h5>
+        <ul>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Contacts</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Cookies Policy</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </section>
+    <section class="third">
+        <h5>Follow us</h5>
+        <ul>
+            <li><a href="https://www.pinterest.com/ilovemylab/labrador-retrievers/">Pinterest</a></li>
+            <li><a href="https://www.facebook.com/groups/240272283165804/">Facebook</a></li>
+            <li><a href="https://www.instagram.com/chocolatelabsquad/">Instagram</a></li>
+        </ul>
+    </section>
+    <section class="fourth">
+        <h5>Working time</h5>
+        <p>something extra to put</p>
+    </section>
+</div>
+
+            <p>All rights reserved &copy; 2019 irenkaaa </p>            
             
-            <nav class="site-nav location-footer">
-    <ul>
-        
-        
-        
-        
-          <li>
-            <a href="/mishland/about/">
-                            
-                <i class="fas fa-id-card-alt"></i>
-              
-              About
-            </a>
-          </li>
-          
-        
-        
-        
-        
-          <li>
-            <a href="/mishland/blog/">
-                            
-                <i class="fas fa-rss"></i>
-              
-              Blog
-            </a>
-          </li>
-          
-        
-        
-          <li>
-            <a href="/mishland/contacts/">
-                            
-                <i class="fas fa-address-card"></i>
-              
-              Contacts
-            </a>
-          </li>
-          
-        
-        
-          <li>
-            <a href="/mishland/gallery/">
-                            
-                <i class="fas fa-grip-horizontal"></i>
-              
-              Gallery
-            </a>
-          </li>
-          
-        
-        
-        
-        
-        
-    </ul>
-</nav>
         </footer>
-    </div>
+</div>
     
 </body>
 </html>
