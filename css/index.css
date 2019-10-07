@@ -22,7 +22,7 @@
     position: absolute;
     top: 20%; left: 50%;
     transform: translate(-50%,-50%);
-    
+    font-family: 'Merriweather', serif;
 }
 
 .welcome .button {
@@ -34,7 +34,7 @@
     padding: 0.3em 0.8em;
     font-style: italic;
     position: absolute;
-    top: 25%; left: 57%;
+    top: 30%; left: 57%;
 }
 
 
@@ -94,11 +94,6 @@
     height: auto;
     overflow: hidden;
     background: black;
-    transition: opacity 0.5s ease-in-out;
-}
-
-.check-our-stuff li:hover > img {
-    opacity: 0.2;
 }
 
 
@@ -108,22 +103,32 @@
 
 }
 .extras section {
-    flex: 1 1 30%;
+    background: whitesmoke;
     border: 3px solid var(--color-button-bgrd);
     text-align: center;
     margin-right: 1em;
 }
+.extras section:nth-child(1) { flex-basis: 40%;}
+.extras section:nth-child(2) { flex-basis: 25%;}
+.extras section:nth-child(3) { flex-basis: 20%;}
+
 .extras section:nth-child(3) {
     margin-right: 0;
 }
-.extras section > h4 {
+.extras section > h4,
+.extras section a > h4 {
     text-decoration-line: underline;
-    text-decoration-color: var(--color-button-bgrd);
     text-transform: uppercase;
     font-weight: bold; 
 }
 
-.extras section i {
+.extras section a > h4, 
+.extras section a > p {
+    color: var(--color-body-text);
+}
+
+.extras section i,
+.extras section a > i {
     font-size: 2.5em;
     padding: 0.5em 0;
     color: var(--color-button-bgrd);
@@ -135,17 +140,42 @@
 
 
 .newsletter {
+    margin: 2em 2em 0 2em;
     display: flex;
 }
 .newsletter i {
-    font-size: 3em;
+    font-size: 2em;
 }
-.newsletter h3 {
-
+.newsletter > h4 {
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    margin-bottom: 0;
 }
-.newsletter input{
-    padding: 
+.newsletter input {
+    font-size: 1em;
+    margin-left: auto;
+    padding-left: 0.5em;
+    background: whitesmoke;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border: 1px solid var(--color-body-text-white);
 }
 .newsletter button{
+    font-size: 1em;
+    padding: 0 1em;
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border: 2px solid var(--color-body-text-white);
+}
 
+.newsletter input:focus{
+    outline: none;    
+    border: 1px solid var(--color-button-bgrd);
+}
+
+.newsletter button:hover,
+.newsletter button:focus  {
+    outline: none;    
 }

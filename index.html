@@ -6,8 +6,8 @@ home: true
 <section>
   <div class="welcome">
     <img src="https://images.unsplash.com/photo-1493663284031-b7e3aefcae8e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" alt="">
-    <p>Find the comfort you dream for!</p>
-    <a href="#" class="button">Get Started!</a>
+    <p>Check out the newest tendencies in the world of HOME!</p>
+    <a href="{{ site.baseurl }}{{ page.url }}blog" class="button">Get Started!</a>
   </div>
 
   <div class="check-our-stuff">
@@ -48,17 +48,19 @@ home: true
       <p>Without extra tax for the cash</p>
     </section>
     <section>
-      <i class="fas fa-store"></i>
-      <h4>5 shops in Bulgaria</h4>
-      <p>Visit us!</p>
+      <a href="{{ site.baseurl }}{{ page.url }}about">
+        <i class="fas fa-store"></i>
+        <h4>5 shops in Bulgaria</h4>
+        <p>Visit us!</p>
+      </a>
     </section>
   </div>
 
 
   <div class="newsletter">
     <i class="far fa-envelope"></i>
-    <h3>Subscribe for our newsletter and get first our offers</h3>
+    <h4>Subscribe for our newsletter and get first our offers</h4>
     <input type="text" name="email" id="email" placeholder="Write your mail">
-    <button type="submit"></button>
+    <button type="submit">Send</button>
   </div>
 </section>

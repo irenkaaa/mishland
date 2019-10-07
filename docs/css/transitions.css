@@ -78,3 +78,22 @@ body.loaded .site-nav li {
     font-size: 3em;
 }
 
+.check-our-stuff li > img {
+    transition: opacity 0.5s ease-in-out;
+}
+
+.check-our-stuff li:hover > img {
+    opacity: 0.2;
+}
+
+
+.newsletter button{
+    transition: border 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+.newsletter button:hover,
+.newsletter button:focus  {
+    border-color: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    
+}
