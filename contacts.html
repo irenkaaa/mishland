@@ -7,46 +7,46 @@ permalink: /contacts/
 message: send us message
 ---
 <div class="content">
-<div class="contacts">
-    <header>
-        <h2 class="contact-title">{{page.title}}</h2>
-        <div class="contact-header-message">
-            <p>If you have questions or problems or just need an information, don't hesitate to contact us!</p>
-            <p>We would love to help you!</p>
-        </div>
-    </header>
-    <main>
-        <section class="quick-contacts">
-            <div class="contact-email">
-                <h4>Email Us</h4>
-                <a href="#">contact.center@mishland.com</a>
+    <div class="contacts">
+        <header>
+            <h2 class="contact-title">{{page.title}}</h2>
+            <div class="contact-header-message">
+                <p>If you have questions or problems or just need an information, don't hesitate to contact us!</p>
+                <p>We would love to help you!</p>
             </div>
-            <div class="contact-phone">
-                <h4>Call Us</h4>
-                <a href="#">+359 888 77 66</a>
+        </header>
+        <main>
+            <section class="quick-contacts">
+                <div class="contact-email">
+                    <h4>Email Us</h4>
+                    <a href="#">contact.center@mishland.com</a>
+                </div>
+                <div class="contact-phone">
+                    <h4>Call Us</h4>
+                    <a href="#">+359 888 77 66</a>
+                </div>
+                <div class="contact-social">
+                    <h4>Connect with Us</h4>
+                    <ul>
+                        <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                    </ul>
+                </div>
+            </section>
+            
+            <div class="contact-form">
+                <h4>Write to Us</h4>
+            
+                <form action="#">
+                    <p><input type="text" name="name" id="name" placeholder="Name"></p>
+                    <p><input type="text" name="email" id="email" placeholder="Email"></p>
+                    <p><textarea name="message" id="message" cols="21" rows="5" placeholder="Type your message in here..."></textarea></p>
+                    <p><a href="{{ site.baseurl }}/">Submit</a></p>
+                </form>
             </div>
-            <div class="contact-social">
-                <h4>Connect with Us</h4>
-                <ul>
-                    <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-                </ul>
-            </div>
-        </section>
-        
-        <div class="contact-form">
-            <h4>Write to Us</h4>
-
-            <form action="#">
-                <p><input type="text" name="name" id="name" placeholder="Name"></p>
-                <p><input type="text" name="email" id="email" placeholder="Email"></p>
-                <p><textarea name="message" id="message" cols="21" rows="5" placeholder="Type your message in here..."></textarea></p>
-                <p><a href="{{ site.baseurl }}/">Submit</a></p>
-            </form>
-        </div>
-        
-    </main>
-</div>
+            
+        </main>
+    </div>
 </div>

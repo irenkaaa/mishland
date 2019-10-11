@@ -2,6 +2,7 @@
 layout: main
 title: Blog
 icon: fa-rss
+noshowtitle: true
 permalink: /blog/
 nomainnav: 0
 ---
@@ -14,9 +15,17 @@ nomainnav: 0
     <div class="content">
       <ul>
           {% for post in site.posts %}
-            <li>
-              <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-            </li>
+          <li>
+            <div class="media">
+                <img src="{{post.image}}" alt="">
+            </div>
+            <div class="text">
+                <time datetime="{{post.date}}">{{post.date}}</time>
+                <a href="{{ site.baseurl }}{{ post.url }}">{{post.title}}</a>
+                <h2>{{post.secondtitle}}</h2>
+                <p>{{post.text}}</p>
+            </div>
+          </li>
           {% endfor %}
       </ul>
     </div>
