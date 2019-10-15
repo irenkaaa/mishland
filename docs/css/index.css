@@ -117,7 +117,8 @@
 }
 .extras section > h4,
 .extras section a > h4 {
-    text-decoration-line: underline;
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
     text-transform: uppercase;
     font-weight: bold; 
 }
