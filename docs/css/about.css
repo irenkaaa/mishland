@@ -1,0 +1,21 @@
+.content-about {
+    display: flex;
+    flex-direction: column;
+    background: whitesmoke;
+    color: var(--color-body-text);
+    padding: 1em 1.5em;
+}
+
+.content-about .about-title {
+    align-self: center;
+    padding-bottom: 0.5em;
+}
+
+.content-about .message {}
+
+
+
+.content-about .founder {
+    font-weight: bold;
+    font-size: 1.5em;
+}

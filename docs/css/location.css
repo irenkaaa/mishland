@@ -1,0 +1,9 @@
+ul.location {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+ul.location  li {
+    padding-bottom: 1.5em;
+}
