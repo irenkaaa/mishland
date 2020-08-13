@@ -1,0 +1,189 @@
+
+
+.welcome {
+    position: relative;
+}
+
+.welcome img {
+    width: 100%;
+    height: auto;
+    
+}
+
+
+/*@media (max-width: 800px) {}*/
+
+
+.welcome p {
+    color: var(--color-button-bgrd);
+    text-shadow: 4px 8px 5px rgba(0,0,0,0.61);
+    font-size: 2.2em;
+    font-style: italic;
+    position: absolute;
+    top: 20%; left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Merriweather', serif;
+}
+
+.welcome .button {
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    box-shadow: 4px 8px 5px 0px rgba(0,0,0,0.61);
+    border-radius: 0.5em;
+    font-size: 1.5em;
+    padding: 0.3em 0.8em;
+    font-style: italic;
+    position: absolute;
+    top: 30%; left: 57%;
+}
+
+
+
+
+.check-our-stuff {
+    /*background: rgba(73, 42, 75, 0.5);*/
+}
+
+.check-our-stuff ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em;
+
+}
+.check-our-stuff li {
+    list-style: none outside;
+    flex-basis: 24%;
+    width: 15em;
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.check-our-stuff li a {
+    text-transform: uppercase;
+    color: var(--color-body-text-white);
+    font-weight: bold;
+    font-style: italic;
+    padding: 0.3em 0.5em;
+    border: 3px solid var(--color-body-text-white);
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    transition: color 0.5s ease-in-out, border 0.5s ease-in-out;
+    
+}
+
+.check-our-stuff li:hover a {
+    color: black;
+    border-color: black;
+}
+
+.check-our-stuff li > a,
+.check-our-stuff li > a:hover,
+.check-our-stuff li > a:focus {
+    cursor: pointer;
+    z-index: 2;
+}
+
+
+.check-our-stuff li > img {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background: black;
+}
+
+
+.extras {
+    display: flex;
+    justify-content: space-around;
+
+}
+.extras section {
+    background: whitesmoke;
+    border: 3px solid var(--color-button-bgrd);
+    text-align: center;
+    margin-right: 1em;
+}
+.extras section:nth-child(1) { flex-basis: 40%;}
+.extras section:nth-child(2) { flex-basis: 25%;}
+.extras section:nth-child(3) { flex-basis: 20%;}
+
+.extras section:nth-child(3) {
+    margin-right: 0;
+}
+.extras section > h4,
+.extras section a > h4 {
+    -webkit-text-decoration-line: underline;
+            text-decoration-line: underline;
+    text-transform: uppercase;
+    font-weight: bold; 
+}
+
+.extras section a > h4, 
+.extras section a > p {
+    color: var(--color-body-text);
+}
+
+.extras section i,
+.extras section a > i {
+    font-size: 2.5em;
+    padding: 0.5em 0;
+    color: var(--color-button-bgrd);
+}
+.extras section > p {
+    padding-bottom: 0.5em;
+}
+
+
+
+.newsletter {
+    margin: 2em 2em 0 2em;
+    display: flex;
+}
+.newsletter i {
+    font-size: 2em;
+}
+.newsletter > h4 {
+    font-size: 1.5em;
+    padding-left: 0.5em;
+    margin-bottom: 0;
+}
+.newsletter input {
+    font-size: 1em;
+    margin-left: auto;
+    padding-left: 0.5em;
+    background: whitesmoke;
+    border-top-left-radius: 0.5em;
+    border-bottom-left-radius: 0.5em;
+    border: 1px solid var(--color-body-text-white);
+}
+.newsletter button{
+    font-size: 1em;
+    padding: 0 1em;
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+    border: 2px solid var(--color-body-text-white);
+}
+
+.newsletter input:focus{
+    outline: none;    
+    border: 1px solid var(--color-button-bgrd);
+}
+
+.newsletter button:hover,
+.newsletter button:focus  {
+    outline: none;    
+}
+
+.newsletter button a {
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}

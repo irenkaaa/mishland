@@ -1,0 +1,73 @@
+.sofas,
+.kitchens,
+.livingroom {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(6, 10em);
+    grid-gap: 0.6em;
+    grid-auto-flow: dense;
+}
+
+.livingroom li, .livingroom li:before, .livingroom li a, .livingroom li a img,
+.sofas li, .sofas li:before, .sofas li a, .sofas li a img,
+.kitchens li, .kitchens li:before, .kitchens li a, .kitchens li a img{
+    display: block;
+}
+
+.livingroom li,
+.sofas li,
+.kitchens li {
+    list-style: none outside;
+    position: relative;
+    overflow: hidden;
+}
+
+.livingroom li.small,
+.sofas li.small,
+.kitchens li.small {
+    grid-column: span 1;
+    grid-row: span 1;
+}
+
+.livingroom li.big,
+.sofas li.big,
+.kitchens li.big {
+    grid-column: span 2;
+    grid-row: span 2;
+}
+
+.livingroom > li > a,
+.sofas > li > a,
+.kitchens > li > a  {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.livingroom .small img,
+.sofas .small img,
+.kitchens .small img {
+    width: 100%;
+    height: auto;
+}
+
+.livingroom .big img,
+.sofas .big img,
+.kitchens .big img {
+    width: auto;
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+
+    .livingroom,
+    .sofas,
+    .kitchens {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(15, 10em);
+    }
+
+}
