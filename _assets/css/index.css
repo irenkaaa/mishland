@@ -179,3 +179,10 @@
 .newsletter button:focus  {
     outline: none;    
 }
+
+.newsletter button a {
+    background: var(--color-button-bgrd);
+    color: var(--color-body-text-white);
+    border-top-right-radius: 0.5em;
+    border-bottom-right-radius: 0.5em;
+}

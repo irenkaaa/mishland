@@ -7,10 +7,10 @@
     <section class="second">
         <h5>Information</h5>
         <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/contacts">Contacts</a></li>
-            <li><a href="/blog">Blog</a></li>
-            <li><a href="/services">Services</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}about">About us</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}contacts">Contacts</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}blog">Blog</a></li>
+            <li><a href="{{ site.baseurl }}{{ page.url }}services">Services</a></li>
             <li><a href="https://ec.europa.eu/info/cookies_en">Cookies</a></li>
             <li><a href="https://ec.europa.eu/info/privacy-policy_en">Privacy Policy</a></li>
         </ul>
@@ -25,6 +25,6 @@
     </section>
     <section class="fourth">
         <h5>Find us</h5>
-        <a href="{{ site.baseurl }}/findus/">Click here to see the location of our offices</a>
+        <a href="{{ site.baseurl }}{{ page.url }}findus/">Click here to see the location of our offices</a>
     </section>
 </div>
