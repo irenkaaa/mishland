@@ -1,0 +1,135 @@
+
+.contacts {
+    background: whitesmoke;
+    color: var(--color-body-text);
+    padding-bottom: 2em;
+}
+
+.contacts h4 {
+    padding: 0.5em 0; 
+}
+
+.contacts header {
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+
+    section {
+        margin-bottom: 1.5em;
+    }
+
+    .quick-contacts{
+        flex-wrap: wrap;
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .quick-contacts .contact-email {
+        flex-basis: 100%;
+    }
+
+    .quick-contacts .contact-phone,
+    .quick-contacts .contact-social {
+        flex-basis: 50%;
+    }
+
+    .quick-contacts .contact-social ul {
+        justify-content: space-evenly;
+    }
+
+    .contacts main {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.contacts .contact-title {
+    display: inline-block;
+    font-size: 2em;
+    font-style: normal;
+    padding: 0.3em;
+    border-bottom: 1px solid var(--color-border-default);
+}
+
+
+.contacts .contact-header-message p {
+    font-size: 1.2em;
+    padding-bottom: 1em;
+}
+
+.contacts main {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts .quick-contacts {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 30%;
+    justify-content: space-evenly;
+}
+
+.contacts .contact-email,
+.contacts .contact-phone,
+.contacts .contact-social,
+.contacts .contact-form
+{   
+    padding: 0.5em 0;
+}
+
+.contacts .contact-email a,
+.contacts .contact-phone a,
+.contacts .contact-form form a {
+    padding: 0.7em 1.4em;
+    background: var(--color-link-default);
+    color: var(--color-body-text-white);
+    text-decoration: none;
+    border: 1px solid var(--color-link-default);
+    border-radius: 0.5em;
+    margin-left: 1em;    
+    outline: none;
+}
+
+
+.contacts .contact-form form a {
+    margin-left: 0;
+}
+
+.contacts .contact-social ul {
+    display: flex;
+    padding: 0;
+    margin-left: 1em;
+}
+.contacts .contact-social li {
+    list-style: none outside;
+    padding: 0.3em;
+}
+
+.contacts .contact-form form {
+    background: none;
+}
+
+.contacts .contact-form p:not(:last-child) {
+    margin-bottom: 0.5em;
+    padding: 0;
+}
+
+.contacts .contact-form > form p input,
+.contacts .contact-form > form p textarea {
+    background: var(--color-body-bgrd);
+    border: 1px solid var(--color-body-text-white);
+    padding: 0.5em 0.8em;
+    border-radius: 0.5em;
+    font-family: Verdana, sans-serif;
+}
+
+.contacts .contact-form > form p input:focus,
+.contacts .contact-form > form p textarea:focus {
+    outline: none;
+    border-radius: 0.5em;
+    border: 1px solid var(--color-link-default);
+}
