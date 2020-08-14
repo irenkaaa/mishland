@@ -15,6 +15,31 @@
 
 @media (max-width: 800px) {
 
+    section {
+        margin-bottom: 1.5em;
+    }
+
+    .quick-contacts{
+        flex-wrap: wrap;
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .quick-contacts .contact-email {
+        flex-basis: 100%;
+    }
+
+    .quick-contacts .contact-phone,
+    .quick-contacts .contact-social {
+        flex-basis: 50%;
+    }
+
+    .quick-contacts .contact-social ul {
+        justify-content: space-evenly;
+    }
+
     .contacts main {
         flex-direction: column;
         justify-content: center;

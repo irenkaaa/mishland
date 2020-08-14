@@ -11,7 +11,25 @@
 }
 
 
-/*@media (max-width: 800px) {}*/
+@media (max-width: 800px) {
+    .welcome p {
+        top: 30%;
+        left: 40%;
+    }
+
+    .welcome .button{
+        top: 35%;
+        left: 65%;
+    }
+
+    .newsletter h4 { 
+        padding: 0 0.5em;
+    }
+
+    .extras section {
+        flex-basis: 25%;
+    }
+}
 
 
 .welcome p {
@@ -54,7 +72,7 @@
     list-style: none outside;
     flex-basis: 24%;
     width: 15em;
-    height: 15em;
+    height: 10em;
     display: flex;
     flex-direction: column;
     justify-content: center;

@@ -19,3 +19,10 @@
     font-weight: bold;
     font-size: 1.5em;
 }
+
+@media (max-width: 800px) {
+    .footer > section ul {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
