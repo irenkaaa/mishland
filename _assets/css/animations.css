@@ -45,6 +45,11 @@
     }
 }
 
+.tabcontent:hover{
+    animation: shake 0.5s ease;
+    animation-fill-mode: both;
+}
+
 
 @keyframes shake {
     0% { transform: translateX(0);}
