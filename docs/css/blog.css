@@ -1,0 +1,36 @@
+.content .blog {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.content .blog > li {
+    list-style: none outside;
+    border-bottom: 2px solid black;
+    padding: 1em 0;
+    display: flex;
+}
+
+.blog li .media {
+    width: 20em;
+    height: 20em;
+    overflow: hidden;
+}
+
+.blog li .media img {
+    width: 100%;
+    height: auto;
+}
+
+.blog li .text {
+    flex-basis: 40%;
+    display: flex;
+    flex-direction: column;
+    padding: 0 1em;
+}
+
+.blog li .text h3 {
+    color: black;
+    text-decoration: none;
+    font-size: 1.5em;
+}
