@@ -20,6 +20,11 @@
     font-size: 1.5em;
 }
 
+.page-about {
+    background: url(../../pictures/bgrd.jpg) no-repeat;
+    background-size: cover;
+}
+
 @media (max-width: 800px) {
     .footer > section ul {
         display: flex;
