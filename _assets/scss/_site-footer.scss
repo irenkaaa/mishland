@@ -38,13 +38,12 @@
 }
 
 
-@media (max-width: 800px) {
+@include bp (mobile) {
     footer {
         display: block;
         text-align: center;
     }
 }
-
 
 @media (min-width: 801px) {
     .footer {
