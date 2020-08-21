@@ -40,21 +40,21 @@
                 display: none;
             }
         
+        }
 
-            &:checked {
-                & + .site-header .site-nav{
-                    display: block;
-                    flex: 1 0 100%;
-                    padding-top: 1em;
-                }
+        &:checked {
+            & + .site-header .site-nav{
+                display: block;
+                flex: 1 0 100%;
+                padding-top: 1em;
+            }
 
-                & + .site-header .nav-toggle-button .close {
-                    display: block;
-                }
+            & + .site-header .nav-toggle-button .close {
+                display: block;
+            }
 
-                & + .site-header .nav-toggle-button .open {
-                    display:none;
-                }
+            & + .site-header .nav-toggle-button .open {
+                display:none;
             }
         }
 

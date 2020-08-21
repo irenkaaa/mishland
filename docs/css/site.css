@@ -140,14 +140,14 @@ blockquote .author::before {
     display: block; }
     .nav-toggle-button .close {
       display: none; }
-    .nav-toggle-button:checked + .site-header .site-nav {
-      display: block;
-      flex: 1 0 100%;
-      padding-top: 1em; }
-    .nav-toggle-button:checked + .site-header .nav-toggle-button .close {
-      display: block; }
-    .nav-toggle-button:checked + .site-header .nav-toggle-button .open {
-      display: none; } }
+  .nav-toggle:checked + .site-header .site-nav {
+    display: block;
+    flex: 1 0 100%;
+    padding-top: 1em; }
+  .nav-toggle:checked + .site-header .nav-toggle-button .close {
+    display: block; }
+  .nav-toggle:checked + .site-header .nav-toggle-button .open {
+    display: none; } }
 
 .site-footer {
   border-top: 1px solid var(--color-border-default, #999);
