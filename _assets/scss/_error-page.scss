@@ -1,40 +1,35 @@
-body {
-   
-}
 .errormessage {
     margin: 0;
     padding: 0;
     display: flex;    
-}
 
-.errormessage div {
-    flex-basis: 50%;
-}
+    & div {
+        flex-basis: 50%;;
+    }
 
-.errormessage .text {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; 
-    
-}
+    & .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
 
-.errormessage .text p:first-child {
-    font-size: 5em;
-    font-weight: bold;    
-}
+        a {
+            font-size: 2em;
+            text-decoration: none;
+            color: #000;
+            background: cadetblue;
+            padding: 0.3em 0.5em;
+            border-radius: 0.5em;
+        }
 
-.errormessage .text p:nth-child(2) {
-    font-size: 2.5em;
-    font-style: italic;
-}
-
-
-.errormessage .text a {
-    font-size: 2em;
-    text-decoration: none;
-    color: #000;
-    background: cadetblue;
-    padding: 0.3em 0.5em;
-    border-radius: 0.5em;
+        p:nth-child(1) {
+            font-size: 5em;
+            font-weight: bold;    
+        }
+        
+        p:nth-child(2) {
+            font-size: 2.5em;
+            font-style: italic;
+        }
+    }
 }

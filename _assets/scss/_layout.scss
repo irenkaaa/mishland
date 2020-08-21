@@ -2,26 +2,26 @@
     max-width: var(--layout-main-width);
     margin: 2em auto;
     padding: 2em;
+
+    @include bp (desktop) {
+        &-header {
+            display: flex;
+            align-items: center;
+        }
+    
+        &-header nav {
+            margin-left: auto;
+        }
+    }
 }
 
 .nav-toggle {
-        opacity: 0;
-        pointer-events: none;
-        position: absolute;
-}
-    
-.nav-toggle-button {
-    display: none;
-    margin-left: auto;
-}
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
 
-@media (min-width: 1024px) {
-    .site-header {
-        display: flex;
-        align-items: center;
-    }
-
-    .site-header nav {
+    &-button {
+        display: none;
         margin-left: auto;
     }
 }

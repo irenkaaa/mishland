@@ -11,27 +11,6 @@
 }
 
 
-@media (max-width: 800px) {
-    .welcome p {
-        top: 30%;
-        left: 40%;
-    }
-
-    .welcome .button{
-        top: 35%;
-        left: 65%;
-    }
-
-    .newsletter h4 { 
-        padding: 0 0.5em;
-    }
-
-    .extras section {
-        flex-basis: 25%;
-    }
-}
-
-
 .welcome p {
     color: var(--color-button-bgrd);
     text-shadow: 4px 8px 5px rgba(0,0,0,0.61);
@@ -157,7 +136,6 @@
 }
 
 
-
 .newsletter {
     margin: 2em 2em 0 2em;
     display: flex;
@@ -204,4 +182,34 @@
     color: var(--color-body-text-white);
     border-top-right-radius: 0.5em;
     border-bottom-right-radius: 0.5em;
+}
+
+@media (max-width: 800px) {
+    .welcome p {
+        top: 30%;
+        left: 40%;
+    }
+
+    .welcome .button{
+        top: 35%;
+        left: 65%;
+    }
+
+    .newsletter i,
+    .newsletter h4 {
+        font-size: 1em;
+    }
+
+    .newsletter input,
+    .newsletter button {
+        font-size: 0.7em;
+    }
+
+    .newsletter h4 { 
+        padding: 0 0.5em;
+    }
+
+    .extras section {
+        flex-basis: 25%;
+    }
 }

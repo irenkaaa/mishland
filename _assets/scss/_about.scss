@@ -1,32 +1,29 @@
+.page-about {
+    background: url(../../pictures/bgrd.jpg) no-repeat;
+    background-size: cover;
+}
+
 .content-about {
     display: flex;
     flex-direction: column;
     background: whitesmoke;
     color: var(--color-body-text);
     padding: 1em 1.5em;
-}
 
-.content-about .about-title {
-    text-align: center;
-    display: inline-block;
-    font-size: 2em;
-    font-style: normal;
-    padding: 0.3em;
-    border-bottom: 1px solid var(--color-border-default);
-}
+    & .about-title {
+        text-align: center;
+        display: inline-block;
+        font-size: 2em;
+        font-style: normal;
+        padding: 0.3em;
+        border-bottom: 1px solid var(--color-border-default);
+    }
 
-.content-about .message {}
-
-
-
-.content-about .founder {
-    font-weight: bold;
-    font-size: 1.5em;
-}
-
-.page-about {
-    background: url(../../pictures/bgrd.jpg) no-repeat;
-    background-size: cover;
+    
+    & .founder {
+        font-weight: bold;
+        font-size: 1.5em;
+    }
 }
 
 @media (max-width: 800px) {
